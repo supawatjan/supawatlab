@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    height: 700px;
+    background-color: #FAFBFD;
+    background-image: url(./src/Rectangle\ 15.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+nav.container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 52px;
+
+    
+   
+}
+.logo {
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
+}
+ul.menu {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    margin-bottom: 0;
+    
+}
+li {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+button.btn {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    width: 130px;
+    height: 40px;
+    background-color: #4285F4;
+    border-radius: 5px ;
+    color: #FCFDFE;
+    border: none;
+    cursor: pointer;
+}
+header section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container.slogan{
+    width: 497px;
+    height: 220px;
+    margin: 120px;
+}
+button.btn.cta{
+    background-color: #EC5863;
+    width: 144px;
+}
+.container.watch-vdo{
+    width: 228px;
+    height: 44px;
+    display: flex;
+    margin-left: 120px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.container.watch-vdo .container-text{
+    width: 172px;
+    height: 32px;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.container.watch-vdo :first-child{
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
+    color: #B0B0B0;
+
+}
+.container.watch-vdo :last-child{
+    font-family: 'Rubik', sans-serif;
+    font-size: 9px;
+    color: #000;
+}
+
+.features-1{
+    width: 100%;
+    height: 700px;
+    background-color: #fff;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.features-1 .container{
+    width: 379px;
+    height: 238px;
+    margin-left: 150px ;
+}
+
+.features-1 img{
+    margin-left: 120px;
+}
+.features-2{
+    width: 100%;
+    height: 700px;
+    background-color: #FAFBFD;
+    margin: 0;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 70px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.features-2 .above{
+    width: 100%;
+    height: 240px;
+    margin-bottom:30px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./src/Group\ 28.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.stat-detail{
+    width: 654px;
+    height: 117px;
+    border-radius: 16px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 36px 80px;
+}
+.features-2 .below{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.below .container-text{
+    margin-right: 100px;
+}
+.below img {
+    height: 284px;
+}
+footer{
+    background-color: #fff;
+    padding: 100px 85px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-head{
+    width: 665px;
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+.foot-head p{
+    text-align: center;
+}
+.foot-detail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 55px;
+}
+
+.box{
+    width:278px ;
+    height: 275px;
+    border-radius: 18px;
+    background-color: #fff;
+    box-shadow: 0px 4px 18px 0px #587EEC25;
+    margin-right: 20px;
+    padding: 30px;
+}
+.cta-app{
+    width: 160px;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.cta-app img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.cta-app img:first-child{
+    margin-right: 64px;
+}
